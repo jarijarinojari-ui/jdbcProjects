@@ -20,7 +20,7 @@ public class DBCconnection {
 
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("DB 연결 실패");
+            System.out.println("DB 연결 실패 혹은 DB가 이미 생성되었 습니다.");
         }
         return conn;
     }

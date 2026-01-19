@@ -7,8 +7,9 @@ public class Kanji {
     private int kanjiNo;
     private String kanji;
     private String yomigana;
-    private String korea;
+    private String kread;
     private String createDate;
+    private String theme;
 
     // 기본 생성자
     Kanji () {
@@ -16,12 +17,13 @@ public class Kanji {
     }
 
     // 모든필드 생성자
-    public Kanji (int kanjiNo, String kanji, String yomigana, String korea, String createDate) {
+    public Kanji (int kanjiNo, String kanji, String yomigana, String kread, String createDate, String theme) {
         this.kanjiNo = kanjiNo;
         this.kanji = kanji;
         this.yomigana = yomigana;
-        this.korea = korea;
+        this.kread = kread;
         this.createDate = createDate;
+        this.theme = theme;
 
     }
     // 게터세터
@@ -50,12 +52,12 @@ public class Kanji {
         this.yomigana = yomigana;
     }
 
-    public String getKorea() {
-        return korea;
+    public String getKread() {
+        return kread;
     }
 
-    public void setKorea(String korea) {
-        this.korea = korea;
+    public void setKread(String kread) {
+        this.kread = kread;
     }
 
     public String getCreateDate() {
@@ -65,4 +67,9 @@ public class Kanji {
     public void setCreateDate(String createDate) {
         this.createDate = createDate;
     }
+
+    public String getTheme() {return theme; }
+
+    private void setTheme(String theme) {this.theme = theme;}
+
 }
