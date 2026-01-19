@@ -14,7 +14,7 @@
       <assistant-state connection-id="virtual-oracle-connection" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
         <tools />
       </assistant-state>
-      <assistant-state connection-id="b1721420-6074-43bf-b405-b72e1c206a14" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
+      <assistant-state connection-id="b1721420-6074-43bf-b405-b72e1c206a14" assistant-type="PUBLIC" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE" selected="true">
         <tools />
       </assistant-state>
       <assistant-state connection-id="virtual-mysql-connection" assistant-type="SELECT_AI" default-profile-name="" selected-chat-id="" availability="UNAVAILABLE" acknowledgement="NONE">
@@ -46,6 +46,7 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/oracle/table.sql" connection-id="b1721420-6074-43bf-b405-b72e1c206a14" session-id="MAIN" current-schema="SYSTEM" />
     <mapping file-url="file://$PROJECT_DIR$/kanjiTest/table.sql" connection-id="b1721420-6074-43bf-b405-b72e1c206a14" session-id="MAIN" current-schema="SYSTEM" />
   </component>
   <component name="DBNavigator.Project.JavaUploadManager">

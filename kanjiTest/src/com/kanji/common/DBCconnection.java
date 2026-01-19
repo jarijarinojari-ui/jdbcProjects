@@ -3,6 +3,7 @@ package com.kanji.common;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+
 public class DBCconnection {
 
     public static Connection getConnection() {
@@ -20,7 +21,7 @@ public class DBCconnection {
 
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("DB 연결 실패 혹은 DB가 이미 생성되었 습니다.");
+            System.out.println("DB 연결 실패");
         }
         return conn;
     }

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jdbcProjects.iml" filepath="$PROJECT_DIR$/jdbcProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oracle/oracle.iml" filepath="$PROJECT_DIR$/oracle/oracle.iml" />
     </modules>
   </component>
 </project>
