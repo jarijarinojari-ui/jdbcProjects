@@ -11,6 +11,8 @@ import com.conn.DBConnection;
 
 
 public class Main {
+    static Connection conn1;
+
     public static void main(String[] args) {
         while (true) {
             B b = new B();
@@ -22,6 +24,18 @@ public class Main {
             if (result == 1) {
                 System.out.println("저장완료");
             } else System.out.println("저장실패");
+
+
+            try {
+                conn1 = DBConnection.getConnection();
+                conn1.setAutoCommit(false);
+                conn1.commit();
+
+                System.out.println("커밋완료");
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("예외발생");
+            }
         }
 
     }
